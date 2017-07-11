@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "featureFile">Feature File: login.feature</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "feature">Feature: checking Functionalities of CXP</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">Scenario: Getting on to the pre-defined test page</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Given  open browser (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  user is on the test activity page (passed : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">When  user selects a some random pre-defined example (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  questions of different test are answered (passed : 37s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">And  yet another question answered (passed : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Then  display message test over (passed : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55551" started-at="2017-07-11T11:35:35Z" finished-at="2017-07-11T11:36:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:Cucumber_test.Test_Runner@55f616cf]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="55551" started-at="2017-07-11T11:35:35Z" finished-at="2017-07-11T11:36:30Z">
+      <class name="Cucumber_test.Test_Runner">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:Cucumber_test.Test_Runner@55f616cf]" name="run_cukes" duration-ms="55528" started-at="2017-07-11T17:05:35Z" description="Runs Cucumber Features" finished-at="2017-07-11T17:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div "featureFile">Feature File: login.feature</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "feature">Feature: checking Functionalities of CXP</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "scenario">Scenario: Getting on to the pre-defined test page</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Given  open browser (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  user is on the test activity page (passed : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">When  user selects a some random pre-defined example (passed : 6s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  questions of different test are answered (passed : 37s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">And  yet another question answered (passed : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Then  display message test over (passed : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- run_cukes -->
+      </class> <!-- Cucumber_test.Test_Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
