@@ -49,13 +49,13 @@ public class Test_Steps {
 	@When("^questions of different test are answered$")
 	public void questions_of_different_test_are_answered() throws InterruptedException, IOException 
 	{
-		algo.firstThree();
+		algo.correct_answers();
 	}
 
 	@When("^yet another question answered$")
 	public void yet_another_question_answered() throws InterruptedException 
 	{
-		algo.lastQuestion();
+		algo.incorrect_answer();
 	}
 
 	@Then("^display message test over$")
