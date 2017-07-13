@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
     <line>
       <![CDATA[<div "featureFile">Feature File: login.feature</div>]]>
@@ -14,30 +14,113 @@
       <![CDATA[<div "result">Given  open browser (passed : 4s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  user is on the test activity page (passed : 5s)</div>]]>
+      <![CDATA[<div "result">And  user is on the test activity page (passed : 3s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">When  user selects a some random pre-defined example (passed : 6s)</div>]]>
+      <![CDATA[<div "result">When  user selects a some random pre-defined example (failed : 0s)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  questions of different test are answered (passed : 46s)</div>]]>
+      <![CDATA[<div "result">And  questions of different test are answered (skipped)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">And  yet another question answered (passed : 12s)</div>]]>
+      <![CDATA[<div "result">And  yet another question answered (skipped)</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">Then  display message test over (passed : 0s)</div>]]>
+      <![CDATA[<div "result">Then  display message test over (skipped)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="74650" started-at="2017-07-12T07:37:35Z" finished-at="2017-07-12T07:38:49Z">
+  <suite name="Default suite" duration-ms="7521" started-at="2017-07-12T09:56:10Z" finished-at="2017-07-12T09:56:17Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:Cucumber_test.Test_Runner@55f616cf]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="74650" started-at="2017-07-12T07:37:35Z" finished-at="2017-07-12T07:38:49Z">
+    <test name="Default test" duration-ms="7521" started-at="2017-07-12T09:56:10Z" finished-at="2017-07-12T09:56:17Z">
       <class name="Cucumber_test.Test_Runner">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:Cucumber_test.Test_Runner@55f616cf]" name="run_cukes" duration-ms="74618" started-at="2017-07-12T13:07:35Z" description="Runs Cucumber Features" finished-at="2017-07-12T13:08:49Z">
+        <test-method status="SKIP" signature="run_cukes()[pri:0, instance:Cucumber_test.Test_Runner@55f616cf]" name="run_cukes" duration-ms="7493" started-at="2017-07-12T15:26:10Z" description="Runs Cucumber Features" finished-at="2017-07-12T15:26:17Z">
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ASDP1734PO02529', ip: '10.161.236.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\PRANJA~1\AppData\Local\Temp\scoped_dir14576_15579}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e187fae474c677453e2b35e24c74a8e7
+*** Element info: {Using=xpath, value=html/body/div[1]/form/div[1]/div[4]/select}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ASDP1734PO02529', ip: '10.161.236.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\PRANJA~1\AppData\Local\Temp\scoped_dir14576_15579}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e187fae474c677453e2b35e24c74a8e7
+*** Element info: {Using=xpath, value=html/body/div[1]/form/div[1]/div[4]/select}
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run_cukes(AbstractTestNGCucumberTests.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.MethodInvocationHelper$1.runTestMethod(MethodInvocationHelper.java:209)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.run(AbstractTestNGCucumberTests.java:47)
+	at org.testng.internal.MethodInvocationHelper.invokeHookable(MethodInvocationHelper.java:221)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:657)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ASDP1734PO02529', ip: '10.161.236.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\PRANJA~1\AppData\Local\Temp\scoped_dir14576_15579}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: e187fae474c677453e2b35e24c74a8e7
+*** Element info: {Using=xpath, value=html/body/div[1]/form/div[1]/div[4]/select}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at pages.Algorithm_Test.initiate(Algorithm_Test.java:41)
+	at stepDefinition.Test_Steps.user_selects_a_some_random_pre_defined_example(Test_Steps.java:45)
+	at ✽.When user selects a some random pre-defined example(login.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: login.feature</div>]]>
@@ -52,19 +135,19 @@
               <![CDATA[<div "result">Given  open browser (passed : 4s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  user is on the test activity page (passed : 5s)</div>]]>
+              <![CDATA[<div "result">And  user is on the test activity page (passed : 3s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">When  user selects a some random pre-defined example (passed : 6s)</div>]]>
+              <![CDATA[<div "result">When  user selects a some random pre-defined example (failed : 0s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  questions of different test are answered (passed : 46s)</div>]]>
+              <![CDATA[<div "result">And  questions of different test are answered (skipped)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">And  yet another question answered (passed : 12s)</div>]]>
+              <![CDATA[<div "result">And  yet another question answered (skipped)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">Then  display message test over (passed : 0s)</div>]]>
+              <![CDATA[<div "result">Then  display message test over (skipped)</div>]]>
             </line>
           </reporter-output>
         </test-method> <!-- run_cukes -->
